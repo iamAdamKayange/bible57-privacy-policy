@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08142b" />
+    <meta name="description" content="Privacy policy for Bible 57." />
+    <title>Privacy Policy | Bible 57</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #081020;
+        color: #eef3ff;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: radial-gradient(ellipse at 50% -10%, #17477b 0, #0b1930 38rem, #081020 75rem);
+      }
+      a { color: #8dbdff; text-underline-offset: 3px; }
+      .page { width: min(920px, calc(100% - 32px)); margin: 0 auto; padding: 44px 0 56px; }
+      .brand { display: flex; align-items: center; gap: 13px; margin-bottom: 34px; }
+      .brand img { width: 54px; height: 54px; border-radius: 16px; }
+      .brand-name { font-size: 1.08rem; font-weight: 750; letter-spacing: .04em; }
+      .brand-caption { margin-top: 3px; color: #aab8d1; font-size: .88rem; }
+      header, main, footer {
+        border: 1px solid rgba(190, 211, 255, .14);
+        background: rgba(15, 27, 49, .78);
+        box-shadow: 0 24px 80px rgba(0, 0, 0, .2);
+        backdrop-filter: blur(18px);
+      }
+      header { border-radius: 28px 28px 0 0; padding: clamp(25px, 6vw, 52px); }
+      main { border-top: 0; border-bottom: 0; padding: 8px clamp(25px, 6vw, 52px) 34px; }
+      footer { border-radius: 0 0 28px 28px; padding: 23px clamp(25px, 6vw, 52px); color: #aab8d1; font-size: .9rem; }
+      h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.08; letter-spacing: -.04em; }
+      .intro { max-width: 660px; color: #bfcae0; font-size: 1.05rem; line-height: 1.7; }
+      .updated { color: #8fa3c2; font-size: .9rem; }
+      .language-switch { display: inline-flex; gap: 5px; margin: 10px 0 0; padding: 5px; border: 1px solid #34435e; border-radius: 999px; background: #0a1427; }
+      .language-switch button { padding: 9px 15px; border: 0; border-radius: 999px; color: #c5d1e5; background: transparent; font: inherit; cursor: pointer; }
+      .language-switch button[aria-pressed="true"] { color: #071326; background: #8dbdff; font-weight: 700; }
+      section { padding: 20px 0; border-bottom: 1px solid rgba(190, 211, 255, .11); }
+      section:last-child { border-bottom: 0; }
+      h2 { margin: 0 0 10px; font-size: 1.18rem; }
+      p, li { color: #c0cbe0; line-height: 1.72; }
+      p { margin: 8px 0; }
+      ul { padding-left: 22px; }
+      li + li { margin-top: 5px; }
+      [hidden] { display: none !important; }
+      @media (max-width: 520px) {
+        .page { width: min(100% - 20px, 920px); padding-top: 24px; }
+        header { border-radius: 22px 22px 0 0; }
+        footer { border-radius: 0 0 22px 22px; }
+        .brand { margin-bottom: 23px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="brand">
+        <img src="/bible_icons.png" alt="Bible 57 Bible icon" />
+        <div><div class="brand-name">BIBLE 57</div><div class="brand-caption">Read Scripture in your language</div></div>
+      </div>
+
+      <header>
+        <h1>Privacy Policy</h1>
+        <p class="intro">This policy explains what Bible 57 stores on your device and what information is sent when you choose optional online features.</p>
+        <p class="updated">Last updated: 6 October 2026</p>
+        <div class="language-switch" aria-label="Policy language">
+          <button type="button" data-language="en" aria-pressed="true">English</button>
+          <button type="button" data-language="sw" aria-pressed="false">Kiswahili</button>
+        </div>
+      </header>
+
+      <main>
+        <article lang="en" data-policy="en">
+          <section><h2>1. About Bible 57</h2><p>Bible 57 is an offline-first Bible reading app. It does not provide user accounts, login, or registration. Reading the Bible, searching bundled Scripture, changing preferences, and using your saved library do not require an internet connection or a server account.</p></section>
+          <section><h2>2. Information kept on your device</h2><p>The app stores your preferences and library locally, including your selected app language and Bible editions, theme and reading appearance, bookmarks, favorites, highlights, notes, recent reading, and last reading position. This information is not routinely uploaded to Bible 57 servers. Clearing app data or uninstalling usually removes the local copy, subject to your device backup settings.</p></section>
+          <section><h2>3. Optional notifications</h2><p>If you enable daily verse notifications or reading reminders and grant notification permission, the app sends the following to our notification backend so it can schedule delivery:</p><ul><li>a random app-installation identifier and Firebase Cloud Messaging (FCM) device token;</li><li>your app language, time zone, and selected Bible translation identifier;</li><li>which notification types you enabled and their chosen delivery times; and</li><li>localized notification wording needed to send messages in your chosen app language when available.</li></ul><p>The backend does not receive your notes, bookmarks, search terms, reading history, or the full text of the Bible you are reading. Notification delivery uses Google Firebase Cloud Messaging. You can turn off both notification options in Settings; the app then asks the backend to remove that installation's notification registration. Uninstalling while notifications are enabled may not send that removal request.</p></section>
+          <section><h2>4. Online service requests</h2><p>If the backend is configured and reachable, the app requests remote configuration using your selected app language so it can show matching announcements and settings. If you request Scripture Connections, the app sends the Bible translation ID and selected verse reference (book, chapter, and verse) to the backend. It does not send the verse text or your search query for this feature. The response contains references that the app resolves against its bundled Bible data.</p><p>These services may receive ordinary network information such as an IP address and request metadata through the hosting provider. Bible reading, local Bible search, translation comparison, and saved content remain available without them. Word/verse translation currently uses installed Bible data where possible; no external translation provider is configured by default.</p></section>
+          <section><h2>5. Service providers</h2><p>Optional notifications use Firebase services provided by Google. Optional API features are served by our backend host (currently Render). Those providers process information necessary to operate their services under their own terms and privacy notices. Bible 57 does not currently use advertising SDKs or an app analytics service.</p><ul><li><a href="https://firebase.google.com/support/privacy/">Google Firebase privacy and security</a></li><li><a href="https://render.com/privacy">Render privacy policy</a></li></ul></section>
+          <section><h2>6. Retention and security</h2><p>Local information remains on your device until you remove it or remove the app. Notification registration is kept by the backend while registered and is removed when the app successfully unregisters it; the app does not promise a fixed server log-retention period. API requests use HTTPS for non-local services. No internet service can be guaranteed completely secure, so avoid putting confidential information in notes or other app fields.</p></section>
+          <section><h2>7. Children and sensitive information</h2><p>Bible 57 is not designed to collect personal information from children. Notes are private local content unless you choose another sharing feature provided by your device. The app does not ask for religious affiliation or a personal profile; choosing a Bible translation is used to provide the requested app feature.</p></section>
+          <section><h2>8. Your choices and privacy requests</h2><p>You can use core reading features offline, decline notification permission, and leave optional online features unused. You can remove local data through your device's app storage controls. To request deletion of a notification registration or ask a privacy question, contact the Bible 57 developer through the support contact shown on the app's official distribution page.</p><p>Depending on where you live, applicable privacy laws may give you rights to access, correct, delete, or object to certain processing. For Tanzania, see the <a href="https://pdpc.go.tz/data-subject-rights/">Personal Data Protection Commission's summary of data subject rights</a>.</p></section>
+          <section><h2>9. Changes to this policy</h2><p>This page may be updated when the app's data practices or services change. The updated date at the top shows the latest revision.</p></section>
+        </article>
+
+        <article lang="sw" data-policy="sw" hidden>
+          <section><h2>1. Kuhusu Bible 57</h2><p>Bible 57 ni programu ya kusoma Biblia inayofanya kazi bila intaneti. Haina akaunti za watumiaji, kuingia, au usajili. Kusoma Biblia, kutafuta katika Maandiko yaliyomo kwenye programu, kubadilisha mapendeleo na kutumia maktaba yako hakuhitaji intaneti au akaunti ya seva.</p></section>
+          <section><h2>2. Taarifa zinazohifadhiwa kwenye kifaa chako</h2><p>Programu huhifadhi mapendeleo na maktaba yako ndani ya kifaa, ikiwemo lugha ya programu na tafsiri za Biblia ulizochagua, mandhari na mwonekano wa usomaji, alamisho, vipendwa, mistari iliyoangaziwa, madokezo, historia ya hivi karibuni na nafasi ya mwisho ya kusoma. Taarifa hizi hazipakiziwi kwa kawaida kwenye seva za Bible 57. Kufuta data ya programu au kuiondoa kwa kawaida hufuta nakala ya kifaa, kutegemea mipangilio ya chelezo ya kifaa chako.</p></section>
+          <section><h2>3. Arifa za hiari</h2><p>Ukiwasha arifa za mstari wa kila siku au vikumbusho vya kusoma na kuruhusu arifa, programu hutuma taarifa zifuatazo kwenye seva yetu ya arifa ili kupanga muda wa kuzituma:</p><ul><li>kitambulisho cha nasibu cha usakinishaji wa programu na tokeni ya kifaa ya Firebase Cloud Messaging (FCM);</li><li>lugha ya programu, saa za eneo na kitambulisho cha tafsiri ya Biblia uliyochagua;</li><li>aina za arifa ulizowasha na muda uliochagua; na</li><li>maneno yaliyotafsiriwa yanayohitajika kutuma arifa kwa lugha ya programu yako inapopatikana.</li></ul><p>Seva haipokei madokezo, alamisho, maneno ya utafutaji, historia ya usomaji au maandishi kamili ya Biblia unayosoma. Arifa hutumwa kupitia Google Firebase Cloud Messaging. Ukizima aina zote mbili za arifa kwenye Mipangilio, programu huomba seva ifute usajili wa arifa wa kifaa hicho. Kuondoa programu wakati arifa zimewashwa huenda kusitume ombi hilo la kufuta.</p></section>
+          <section><h2>4. Maombi ya huduma za mtandaoni</h2><p>Seva ya backend ikiwa imewekwa na inapatikana, programu huomba mipangilio ya mbali kwa kutumia lugha ya programu uliyochagua ili kuonyesha matangazo na mipangilio inayolingana. Ukiomba Miunganisho ya Maandiko, programu hutuma kitambulisho cha tafsiri ya Biblia na rejea ya mstari uliochagua (kitabu, sura na mstari) kwenye seva. Haitumi maandishi ya mstari au swali lako la utafutaji kwa huduma hii. Programu hupata maandishi ya matokeo kutoka kwenye data ya Biblia iliyomo kwenye kifaa.</p><p>Huduma hizi zinaweza kupokea taarifa za kawaida za mtandao kama anwani ya IP na metadata ya ombi kupitia mtoa huduma wa seva. Kusoma Biblia, kutafuta kwenye Biblia ya ndani, kulinganisha tafsiri na kutumia maktaba vinaendelea kufanya kazi bila huduma hizi. Tafsiri ya maneno au mistari hutumia data ya Biblia iliyosakinishwa inapowezekana; hakuna mtoa huduma wa nje wa tafsiri aliyeunganishwa kwa chaguomsingi.</p></section>
+          <section><h2>5. Watoa huduma</h2><p>Arifa za hiari hutumia huduma za Firebase zinazotolewa na Google. Vipengele vya hiari vya API vinatolewa na seva yetu (kwa sasa Render). Watoa huduma hao hushughulikia taarifa zinazohitajika kuendesha huduma zao kwa mujibu wa masharti na sera zao za faragha. Kwa sasa Bible 57 haitumii SDK za matangazo wala huduma ya uchanganuzi wa matumizi ya programu.</p><ul><li><a href="https://firebase.google.com/support/privacy/">Faragha na usalama wa Google Firebase</a></li><li><a href="https://render.com/privacy">Sera ya faragha ya Render</a></li></ul></section>
+          <section><h2>6. Muda wa kuhifadhi na usalama</h2><p>Taarifa za ndani huhifadhiwa kwenye kifaa hadi uzifute au uondoe programu. Usajili wa arifa huhifadhiwa kwenye seva ukiwa bado umesajiliwa na hufutwa programu inapofanikiwa kuuondoa; programu haiweki ahadi ya muda maalum wa kuhifadhi kumbukumbu za seva. Maombi ya API hutumia HTTPS kwa huduma zisizo za ndani. Hakuna huduma ya mtandao inayoweza kuhakikishiwa kuwa salama kabisa, kwa hiyo epuka kuweka taarifa za siri kwenye madokezo au sehemu nyingine za programu.</p></section>
+          <section><h2>7. Watoto na taarifa nyeti</h2><p>Bible 57 haijaundwa kukusanya taarifa binafsi za watoto. Madokezo hubaki kwenye kifaa chako isipokuwa utumie kipengele kingine cha kushiriki cha kifaa chako. Programu haiulizi dini unayofuata wala kutengeneza wasifu binafsi; uchaguzi wa tafsiri ya Biblia hutumika kutoa huduma uliyoomba.</p></section>
+          <section><h2>8. Chaguo zako na maombi kuhusu faragha</h2><p>Unaweza kutumia vipengele vya msingi vya kusoma bila intaneti, kukataa ruhusa ya arifa na kutochagua huduma za mtandaoni. Unaweza kufuta data ya ndani kupitia mipangilio ya hifadhi ya programu kwenye kifaa chako. Kuomba kufutwa kwa usajili wa arifa au kuuliza kuhusu faragha, wasiliana na msanidi wa Bible 57 kupitia mawasiliano ya usaidizi yaliyo kwenye ukurasa rasmi wa usambazaji wa programu.</p><p>Kulingana na mahali unapoishi, sheria za faragha zinazotumika zinaweza kukupa haki za kuona, kusahihisha, kufuta au kupinga uchakataji fulani wa taarifa. Tanzania, soma <a href="https://pdpc.go.tz/data-subject-rights/">muhtasari wa haki za mhusika wa taarifa wa Tume ya Ulinzi wa Taarifa Binafsi</a>.</p></section>
+          <section><h2>9. Mabadiliko ya sera hii</h2><p>Ukurasa huu unaweza kusasishwa huduma au namna programu inavyotumia taarifa inapobadilika. Tarehe iliyo juu inaonyesha sasisho la mwisho.</p></section>
+        </article>
+      </main>
+
+      <footer><span id="footer-en">Bible 57 · Privacy policy</span><span id="footer-sw" hidden>Bible 57 · Sera ya faragha</span></footer>
+    </div>
+    <script>
+      const buttons = [...document.querySelectorAll('[data-language]')];
+      const policies = [...document.querySelectorAll('[data-policy]')];
+      for (const button of buttons) {
+        button.addEventListener('click', () => {
+          const language = button.dataset.language;
+          for (const item of buttons) item.setAttribute('aria-pressed', String(item === button));
+          for (const policy of policies) policy.hidden = policy.dataset.policy !== language;
+          document.documentElement.lang = language;
+          document.getElementById('footer-en').hidden = language !== 'en';
+          document.getElementById('footer-sw').hidden = language !== 'sw';
+          document.querySelector('h1').textContent = language === 'sw' ? 'Sera ya Faragha' : 'Privacy Policy';
+          document.querySelector('.intro').textContent = language === 'sw'
+            ? 'Sera hii inaeleza taarifa ambazo Bible 57 huhifadhi kwenye kifaa chako na taarifa zinazotumwa unapochagua huduma za hiari za mtandaoni.'
+            : 'This policy explains what Bible 57 stores on your device and what information is sent when you choose optional online features.';
+          document.querySelector('.updated').textContent = language === 'sw'
+            ? 'Ilisasishwa mwisho: 6 Oktoba 2026'
+            : 'Last updated: 6 October 2026';
+        });
+      }
+    </script>
+  </body>
+</html>
